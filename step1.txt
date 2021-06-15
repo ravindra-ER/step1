@@ -1,9 +1,9 @@
-html file and for publication date
+html file and for Bidding date
 
-<label for="start">Publication date:</label>
+<label for="start">Bidding date:</label>
 
 <input type="date" id="start" name="trip-start"
-       value="2018-07-22"
+       value="2021-02-18"
        min="2018-01-01" max="2021-12-31">
 
 ................................................
@@ -22,6 +22,6 @@ label {
 In java script
 
 var dateControl = document.querySelector('input[type="date"]');
-dateControl.value = '2021-02-02';
-console.log(dateControl.value); // prints "2021-02-02"
+dateControl.value = '2021-02-18';
+console.log(dateControl.value); // prints "2021-02-18"
 console.log(dateControl.valueAsNumber); // prints 1496275200000, a JavaScript timestamp (ms)
